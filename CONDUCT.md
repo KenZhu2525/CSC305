@@ -62,4 +62,4 @@ For answers to common questions about this code of conduct, please see the [FAQ]
 
 ![alt text](https://github.com/KenZhu2525/Campus-Canvas/blob/main/src/Giorgio-Signature.png)
 ![alt text](https://github.com/KenZhu2525/Campus-Canvas/blob/main/src/Evan_Signature.png)
-
+![alt text](https://github.com/KenZhu2525/Campus-Canvas/blob/main/src/signature.png)
