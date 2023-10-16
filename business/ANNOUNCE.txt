@@ -1,1 +1,1 @@
-## Campus Canvas: Real-world pixel art app inspired by Reddit's r/Place. Visit locations, place pixels every 5 mins, create art together.
+# Campus Canvas: Real-world pixel art app inspired by Reddit's r/Place. Visit locations, place pixels every 5 mins, create art together.
