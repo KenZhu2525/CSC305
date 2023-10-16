@@ -17,3 +17,5 @@ Campus Canvas is a community-driven mobile app with a unique twist: users must p
 - Collaborative canvas creation: Users can place virtual pixels on a canvas at real-life locations.
 - Real-world exploration: Encourages users to explore their campus and visit specific locations.
 - Pixel placement rate: Users can place pixels once every 5 minutes, promoting collaboration and strategy.
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
