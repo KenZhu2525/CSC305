@@ -26,18 +26,22 @@ Unacceptable behaviors by participants include:
 - Any other conduct that could be reasonably considered inappropriate in a professional setting.
 
 ## Our Responsibilities
-
-Project maintainers are responsible for establishing and maintaining the standards of acceptable behavior. They are also expected to take fair and appropriate corrective action in response to instances of unacceptable behavior.
-
-Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that do not align with this Code of Conduct. Additionally, they may temporarily or permanently ban any contributor for behaviors they deem inappropriate, threatening, offensive, or harmful.
-
-## Scope
-
-This Code of Conduct applies to all project spaces and public spaces when an individual is representing the project or its community. Representing the project includes using an official project email address or acting as an appointed representative at online or offline events. The definition and clarification of project representation may be provided by project maintainers.
+- Decisions: Decisions will be made by a group majority vote. They will cover topics about planning, member behavior, and any emergencies that may arrive.
+- Attendance: Members should attend every meeting if possible otherwise communicate with others to explain why they can not make it. Emergencies are understanble and group members are
+  expected to work around a members absencse. Emergencies may include sickness, family problems, etc.
+- Assignments: Assignments will be decided via interest in it and respective user story. Equally distribute work and help other members if need be. Members who submit poor work
+  without talking to other members beforehand are expected to work on assignment again if majority group decides.
+- Participation: Members are expected to participate in a consistent matter, however, should work on topics they show more interest towards. Member opinion will be validated in order
+  to decide who will be working on what.
+- Meetings: Meetings will be held each time in class. If more time is needed, an online meeting (Discord, Zoom, etc.) would be held that week where the group will decide what
+  day works best.
+- Agenda/Notes: Scrum master will take down notes of any discreprancies and/or importance they feel should be written.
+- Lateness: Lateness will be tolerated as long as user makes it within a timely matter. A grace period of 15 minutes will be prompted with no questions asked. Member will be prompted to 
+ advise others if they will be late pass this grace period. Failure to do so will be talked about as a group later on.
 
 ## Enforcement
 
-Instances of lack of contribution and or interest should be reported to the project maintainers responsible for enforcement at [liqin_zhu@uri.edu] and/or [uricsc305@gmail.com]. All complaints will be reviewed and investigated promptly and fairly.
+Instances of lack of contribution and or interest should be reported first to group members and have a talk as a whole. Otherwise, the project maintainers responsible for enforcement at [liqin_zhu@uri.edu] and/or [uricsc305@gmail.com]. All complaints will be reviewed and investigated promptly and fairly.
 
 Project maintainers are obligated to respect the privacy and security of the reporter of any incident.
 
