@@ -57,3 +57,9 @@ Project maintainers will adhere to these Community Impact Guidelines when determ
 This Code of Conduct is adapted from the [Contributor Covenant](http://contributor-covenant.org), version 2.0, available at [https://www.contributor-covenant.org/version/2/0/code_of_conduct.html](https://www.contributor-covenant.org/version/2/0/code_of_conduct.html).
 
 For answers to common questions about this code of conduct, please see the [FAQ](https://www.contributor-covenant.org/faq).
+
+## Signatures
+
+![alt text](https://github.com/KenZhu2525/Campus-Canvas/blob/main/src/Giorgio-Signature.png)
+![alt text](https://github.com/KenZhu2525/Campus-Canvas/blob/main/src/Evan_Signature.png)
+
