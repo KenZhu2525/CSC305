@@ -13,9 +13,12 @@ To create a positive and respectful environment, we encourage the following beha
 - Accept constructive criticism gracefully.
 - Prioritize the best interests of the community.
 - Show empathy towards fellow community members.
+- Showing up on time for meetings/class.
+- Contributing equally amongst all group members.
 
 Unacceptable behaviors by participants include:
 
+- Being non-responsive to group members.
 - Use of sexualized language or imagery, and unwelcome sexual advances.
 - Trolling, insulting, derogatory comments, and personal or political attacks.
 - Public or private harassment.
@@ -30,11 +33,11 @@ Project maintainers have the right and responsibility to remove, edit, or reject
 
 ## Scope
 
-This Code of Conduct applies to all project spaces and public spaces when an individual is representing the project or its community. Representing the project includes using an official project email address, posting via an official social media account, or acting as an appointed representative at online or offline events. The definition and clarification of project representation may be provided by project maintainers.
+This Code of Conduct applies to all project spaces and public spaces when an individual is representing the project or its community. Representing the project includes using an official project email address or acting as an appointed representative at online or offline events. The definition and clarification of project representation may be provided by project maintainers.
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior should be reported to the project maintainers responsible for enforcement at [email@example.com]. All complaints will be reviewed and investigated promptly and fairly.
+Instances of lack of contribution and or interest should be reported to the project maintainers responsible for enforcement at [liqin_zhu@uri.edu] and/or [uricsc305@gmail.com]. All complaints will be reviewed and investigated promptly and fairly.
 
 Project maintainers are obligated to respect the privacy and security of the reporter of any incident.
 
@@ -42,10 +45,8 @@ Project maintainers are obligated to respect the privacy and security of the rep
 
 Project maintainers will adhere to these Community Impact Guidelines when determining the consequences for actions in violation of this Code of Conduct:
 
-- Correction: A clear, private message that communicates the nature of the violation and an explanation of why the behavior was inappropriate and will not be tolerated.
-- Warning: A warning with consequences for continued behavior.
-- Temporary Ban: A temporary ban from any form of interaction or communication within the project.
-- Permanent Ban: A permanent ban from the project.
+- As a group maintain clarity and talk as a whole about an individual's actions in a peaceful matter.
+- Speak with CTO [uricsc305@gmail.com] if problem persits to a greater level.
 
 ## Attribution
 
