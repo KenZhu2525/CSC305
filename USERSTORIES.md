@@ -10,14 +10,17 @@
     - The user will see a grid view of pixel locations so that they can choose where to stand to place a new pixel
 # User Story 3:
 - US 3: As a Campus Canvas user, I want the ability to save my personal information and have the option to reset my password, ensuring that my account remains accessible and my data is protected.
-    - When the user clicks save information the user will always be automatically signed in, or the information will be prefilled
+    - Acceptance Criterior
+      - When the user clicks save information the user will always be automatically signed in, or the information will be prefilled
 # User Story 4:
 - US 4: As an administrator of Campus Canvas, I have the permission to create new / delete current users on the app.
-    - If a user is acting against the rules, an admin can go to the fire base and delete a user
-    - In an event of a user needing to be created by an admin, we can add the information to the data base to create a new user.
+    - Acceptance Criterior
+      - If a user is acting against the rules, an admin can go to the fire base and delete a user
+      - In an event of a user needing to be created by an admin, we can add the information to the data base to create a new user.
 # User Story 5:
 - US 5: As a Campus Canvas user, I want to view my real-time location on the map, so I can navigate the campus more effectively.
-    - Looking at the main screen the user will see a maker of there real-time location with a cursor. It will track their movements to let the user know what pixel they are standing on.
+    - Acceptance Criterior
+      - Looking at the main screen the user will see a maker of there real-time location with a cursor. It will track their movements to let the user know what pixel they are standing on.
 # User Story 6:
 - US 6: As a Campus Canvas user, I want to sign up for an account using my URI email and then be able to sign in and out as I want.
     - Acceptance Criterior
