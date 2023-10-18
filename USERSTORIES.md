@@ -7,7 +7,7 @@
 - US 2: As a Campus Canvas user, I want a real-time canvas tracker so I can monitor artwork progress and plan strategic pixel placements.
     - Acceptance Criterior
       - The user will look at the main screen and it will show the campus. It will update every few seconds meaning any changes will appear for the user to see.
-    - The user will see a grid view of pixel locations so that they can choose where to stand to place a new pixel
+      - The user will see a grid view of pixel locations so that they can choose where to stand to place a new pixel
 # User Story 3:
 - US 3: As a Campus Canvas user, I want the ability to save my personal information and have the option to reset my password, ensuring that my account remains accessible and my data is protected.
     - Acceptance Criterior
