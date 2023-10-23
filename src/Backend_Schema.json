@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "Image": {
+      "type": "null"
+    },
+    "Pixels": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "Users": {
+      "type": "object",
+      "properties": {
+        "User": {
+          "type": "string"
+        }
+      },
+      "required": ["User"]
+    }
+  }
+}
+}
