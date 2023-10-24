@@ -7,9 +7,78 @@
                     "children": []
                 }
             },
-            "assets": {},
+            "assets": {
+                "6536bab136920c864d89d30a": {
+                    "externalStorageType": "GCS",
+                    "_id": "6536bab136920c864d89d30a",
+                    "size": "57725",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "class logo.png",
+                    "backendURI": "/project/65315377de77c81e383448e3/getasset/6536bab136920c864d89d30a",
+                    "name": "class logo.png",
+                    "externalName": "users/64fdc4e40473c165b33b3b60/projects/65315377de77c81e383448e3/assets/6536bab136920c864d89d30a",
+                    "createdAt": "2023-10-23T18:25:53.307Z",
+                    "updatedAt": "2023-10-23T18:25:53.307Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64fdc4e40473c165b33b3b60/projects/65315377de77c81e383448e3/assets/6536bab136920c864d89d30a?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231023%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231023T182553Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=2e795d6e5fab48ff5ba1201cd04428d7ca2d44b04eb945a8c88c01e36434c99c84f1e8a55bee793ce3a2b198d9852520af8d31686c58eef1884eeda25bb1228f5462badbcfeaedb76ca845d090e6b81bd3c4dc14090ba82dc3dd258a2bbc9e4047662692904465f26dfb02dae052ef6ec3bd848f895aaa0e566c0f2f1c7d45ae63b11ef7d1aa74e6ff8b855fa543b05a12aed7c86e09846a3037a5c9d4085e50020b3a97ce9b3d9f4e50622034c03b7ee72fface72827132aeb60bd255b473c9b270b58ac7d3edb4751c2c7d980b138a4762cbbb5e16b147421205e1fea91f0ef7cb3a9d34e58ecee29e554f54401acd43bee6b83eab8b8a296a04c49e2558a4",
+                    "signedUrlExpirationTime": 1698258353450
+                }
+            },
             "backendUpgradeVersion": 22,
-            "blockly": {},
+            "blockly": {
+                "1acecd7e-b876-441d-88e7-193b18c6f563": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "694632e8-813d-43c1-9084-8bed5b1276c8": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "eb4d65a0-bcb8-4590-857d-971667f4da51": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "ee9ceb1f-2f9e-4307-baad-4e911220c534": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "066906b1-2dda-4bf0-86d7-3ff56a8c28a8": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "65315377de77c81e383448e3": {}
+            },
             "categories": [
                 "Entertainment"
             ],
@@ -25,7 +94,10 @@
                         "id": "eb4d65a0-bcb8-4590-857d-971667f4da51"
                     },
                     {
-                        "id": "2085f767-9339-4dff-99a3-1ce8775f0942"
+                        "id": "ee9ceb1f-2f9e-4307-baad-4e911220c534"
+                    },
+                    {
+                        "id": "066906b1-2dda-4bf0-86d7-3ff56a8c28a8"
                     }
                 ]
             },
@@ -35,7 +107,7 @@
             "projectName": "Campus Canvas",
             "settings": {
                 "teamId": null,
-                "appName": null,
+                "appName": "Campus Canvas",
                 "icon": null,
                 "autoIncrementVersion": true,
                 "ignoreNotchArea": false,
@@ -44,7 +116,7 @@
                 "androidVersionCode": 1,
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
-                "firebaseAPIKey": null,
+                "firebaseAPIKey": "AIzaSyCVby9L7W1frxhgKAsDAACXdsxm-l_kOlo",
                 "firebaseDatabaseURL": null,
                 "stripePublishableKeyTest": null,
                 "stripePublishableKeyLive": null,
@@ -79,7 +151,7 @@
             },
             "projectSettings": {
                 "teamId": null,
-                "appName": null,
+                "appName": "Campus Canvas",
                 "icon": null,
                 "autoIncrementVersion": true,
                 "ignoreNotchArea": false,
@@ -88,7 +160,7 @@
                 "androidVersionCode": 1,
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
-                "firebaseAPIKey": null,
+                "firebaseAPIKey": "AIzaSyCVby9L7W1frxhgKAsDAACXdsxm-l_kOlo",
                 "firebaseDatabaseURL": null,
                 "stripePublishableKeyTest": null,
                 "stripePublishableKeyLive": null,
@@ -133,7 +205,23 @@
             "totalCopy": "0",
             "totalStar": "0",
             "starAction": "star",
-            "variables": {},
+            "variables": {
+                "db5c5eeb-7de9-4689-aa6d-b44f8ba5f16c": {
+                    "scope": "STORED",
+                    "name": "EmailText",
+                    "screenId": "eb4d65a0-bcb8-4590-857d-971667f4da51"
+                },
+                "18003049-3cef-4f74-bdfa-9a5d23a01148": {
+                    "scope": "STORED",
+                    "name": "PasswordText",
+                    "screenId": "eb4d65a0-bcb8-4590-857d-971667f4da51"
+                },
+                "e2383af5-a0c4-4d77-981f-e57a71e5ff8a": {
+                    "scope": "APP",
+                    "name": "UserID",
+                    "screenId": "eb4d65a0-bcb8-4590-857d-971667f4da51"
+                }
+            },
             "defaultDesignerDevice": "PHONE",
             "defaultDesignerOrientation": "PORTRAIT",
             "schemaVersion": 2,
