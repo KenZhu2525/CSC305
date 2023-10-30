@@ -37,7 +37,7 @@
 **Collecting Total Users Metric:**
 
 - *How to Collect: * To measure the total number of users, we can use user analytics and Firebase Analytics to track and record user accounts.
-- *Tools and Processes: *
+- **Tools and Processes: **
    -User Analytics: Utilize user analytics platforms to continuously track and record user account creation. These platforms provide insights into the total number of registered users.
    -Firebase Analytics: Additionally, we can use Firebase Analytics to monitor user activity and sign-up events within the app. Set up custom events to track user registrations.
    -Data Validation: Ensure that the data from user analytics and Firebase Analytics align to validate the accuracy of the total user count.
