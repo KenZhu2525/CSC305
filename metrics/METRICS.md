@@ -17,3 +17,10 @@
    - **Visualize Data:** Generate visual representations, such as graphs or charts, to effectively illustrate user acquisition patterns over different time frames.
 
 
+
+**Collecting Download Rate Metric:**
+- **How to Collect:** To measure the download rate of our app, we can utilize app store analytics and Firebase Analytics to track the number of app installations.
+- **Tools and Processes:**
+   - App Store Analytics: Leverage the analytics provided by app stores (e.g., Google Play Store, Apple App Store) to track the number of app downloads over time.
+   - Firebase Analytics: Additionally, we can use Firebase Analytics to monitor app installation events. Set up custom events to record when users successfully download and install the app.
+   - Comparative Analysis: Perform a comparative analysis between the data from the app store analytics and Firebase Analytics to ensure consistency and accuracy in tracking download rates.
