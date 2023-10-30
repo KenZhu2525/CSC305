@@ -4,7 +4,7 @@
 
 **Metric (from the HEART grid):** Engagement
 
-**Hypothesis:** Users may engage more with the app if they are allowed to place pixels on the map more frequently. We hypothesize that increasing the frequency of pixel placements from once every 5 minutes to once every 2 minutes will lead to higher user engagement and more collaborative pixel placement.
+**Hypothesis:** User may engage more with the app if they are allowed to place pixels on the map more frequently by reducing the cooldown between pixel placement from once every 5 minutes to once every 2 minutes
 
 **Experiment:**
 - **Audiences:** Allocate 50% of the user base to the experiment group, and the other 50% to the control group.
@@ -19,7 +19,7 @@
 
 **Metric (from the HEART grid):** Engagement
 
-**Hypothesis:** We hypothesize that incorporating social features into the app, such as a chat room for users to discuss pixel placements, will lead to higher user engagement. Users who interact with others and collaborate are likely to spend more time in the app.
+**Hypothesis:** We hypothesize that incorporating social features into the app, such as a chat room for users to discuss pixel placements, will lead to higher average engagement time. Users who interact with others and collaborate are likely to spend more time in the app.
 
 **Experiment:**
 - **Audiences:** Assign 50% of users to the experiment group, and the other 50% to the control group.
