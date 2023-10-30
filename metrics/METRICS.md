@@ -24,3 +24,11 @@
    - App Store Analytics: Leverage the analytics provided by app stores (e.g., Google Play Store, Apple App Store) to track the number of app downloads over time.
    - Firebase Analytics: Additionally, we can use Firebase Analytics to monitor app installation events. Set up custom events to record when users successfully download and install the app.
    - Comparative Analysis: Perform a comparative analysis between the data from the app store analytics and Firebase Analytics to ensure consistency and accuracy in tracking download rates.
+ 
+
+**Collecting Active Hours Metric:**
+How to Collect: To measure the active hours of users in our app, we can use Firebase Analytics and time tracking features to monitor user activity during specific time periods.
+Tools and Processes:
+Firebase Analytics: Utilize Firebase Analytics to track user activity within the app over different time intervals. Set up custom events to record when users are actively engaged with the app.
+Time Tracking Features: Implement time tracking features within our app to record the hours during which users are most active. This can include monitoring user sessions and interactions during specific hours of the day.
+Data Analysis: Analyze the data collected from Firebase Analytics and time tracking features to identify the hours when user activity is at its peak.
