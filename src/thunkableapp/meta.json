@@ -21,11 +21,11 @@
                     "createdAt": "2023-10-23T18:25:53.307Z",
                     "updatedAt": "2023-10-23T18:25:53.307Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64fdc4e40473c165b33b3b60/projects/65315377de77c81e383448e3/assets/6536bab136920c864d89d30a?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231023%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231023T182553Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=2e795d6e5fab48ff5ba1201cd04428d7ca2d44b04eb945a8c88c01e36434c99c84f1e8a55bee793ce3a2b198d9852520af8d31686c58eef1884eeda25bb1228f5462badbcfeaedb76ca845d090e6b81bd3c4dc14090ba82dc3dd258a2bbc9e4047662692904465f26dfb02dae052ef6ec3bd848f895aaa0e566c0f2f1c7d45ae63b11ef7d1aa74e6ff8b855fa543b05a12aed7c86e09846a3037a5c9d4085e50020b3a97ce9b3d9f4e50622034c03b7ee72fface72827132aeb60bd255b473c9b270b58ac7d3edb4751c2c7d980b138a4762cbbb5e16b147421205e1fea91f0ef7cb3a9d34e58ecee29e554f54401acd43bee6b83eab8b8a296a04c49e2558a4",
-                    "signedUrlExpirationTime": 1698258353450
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64fdc4e40473c165b33b3b60/projects/65315377de77c81e383448e3/assets/6536bab136920c864d89d30a?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231030%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231030T183805Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=7fd0c4762f2d694d15330858d3adb1c4afcffd497fae0f249ca3ff53a16deb7f73fcc3b1cca1d6e097fdc56c02ec841efa7a16d11dd1c60574ca6e7776563c3ee58bda022b062c26291fa2d5ef60cdbcc22c8d85fc125fee39d0d85b7399dfd9c2061a63abeed4e370708b3d30ef9f20501c553d798b063e33a4c64703c1a558ed0a0f47db1c0298b0c1882ea7871f6b6efe46074972b96a3522f71f5a7047e9db69b28c35597d68948490277bc8de4b629ca0cf073bfbc5d8de7b8c0ae4c8aa09164acdb4dc1009a3f764350415edfc24d01730c8f0f83a909874ca92c403edbf3628640245fbf202393a27362ef80e3ee312fe33632efbf3cd4c52e0adb95f",
+                    "signedUrlExpirationTime": 1698863885728
                 }
             },
-            "backendUpgradeVersion": 22,
+            "backendUpgradeVersion": 23,
             "blockly": {
                 "1acecd7e-b876-441d-88e7-193b18c6f563": {
                     "xml": "",
@@ -67,7 +67,8 @@
                         "iap": false
                     }
                 },
-                "066906b1-2dda-4bf0-86d7-3ff56a8c28a8": {
+                "65315377de77c81e383448e3": {},
+                "beccb4b2-4e5a-4a0f-9ca4-f0422aa370ac": {
                     "xml": "",
                     "permissions": {
                         "android": [],
@@ -76,8 +77,7 @@
                     "enabledFeatures": {
                         "iap": false
                     }
-                },
-                "65315377de77c81e383448e3": {}
+                }
             },
             "categories": [
                 "Entertainment"
@@ -97,7 +97,7 @@
                         "id": "ee9ceb1f-2f9e-4307-baad-4e911220c534"
                     },
                     {
-                        "id": "066906b1-2dda-4bf0-86d7-3ff56a8c28a8"
+                        "id": "beccb4b2-4e5a-4a0f-9ca4-f0422aa370ac"
                     }
                 ]
             },
@@ -135,7 +135,11 @@
                 "cloudinaryAPIKey": null,
                 "cloudinaryAPISecret": null,
                 "permissions": {
-                    "ios": {}
+                    "ios": {
+                        "usageDescriptions": {
+                            "NSLocationWhenInUseUsageDescription": ""
+                        }
+                    }
                 },
                 "googleMapAPIKeyAndroid": null,
                 "googleMapAPIKeyIOS": null,
@@ -179,7 +183,11 @@
                 "cloudinaryAPIKey": null,
                 "cloudinaryAPISecret": null,
                 "permissions": {
-                    "ios": {}
+                    "ios": {
+                        "usageDescriptions": {
+                            "NSLocationWhenInUseUsageDescription": ""
+                        }
+                    }
                 },
                 "googleMapAPIKeyAndroid": null,
                 "googleMapAPIKeyIOS": null,
