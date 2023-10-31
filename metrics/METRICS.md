@@ -28,7 +28,7 @@
 
 **Collecting Active Hours Metric:**
 
-- **How to Collect: ** To measure the active hours of users in our app, we can use Firebase Analytics and time tracking features to monitor user activity during specific time periods.
+- **How to Collect:** To measure the active hours of users in our app, we can use Firebase Analytics and time tracking features to monitor user activity during specific time periods.
 - **Tools and Processes:**
    -Firebase Analytics: Utilize Firebase Analytics to track user activity within the app over different time intervals. Set up custom events to record when users are actively engaged with the app.
    -Time Tracking Features: Implement time tracking features within our app to record the hours during which users are most active. This can include monitoring user sessions and interactions during specific hours of the day.
