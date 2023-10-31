@@ -67,16 +67,7 @@
                         "iap": false
                     }
                 },
-                "066906b1-2dda-4bf0-86d7-3ff56a8c28a8": {
-                    "xml": "",
-                    "permissions": {
-                        "android": [],
-                        "ios": []
-                    },
-                    "enabledFeatures": {
-                        "iap": false
-                    }
-                },
+                "65315377de77c81e383448e3": {},
                 "beccb4b2-4e5a-4a0f-9ca4-f0422aa370ac": {
                     "xml": "",
                     "permissions": {
@@ -107,9 +98,6 @@
                     },
                     {
                         "id": "beccb4b2-4e5a-4a0f-9ca4-f0422aa370ac"
-                    },
-                    {
-                        "id": "066906b1-2dda-4bf0-86d7-3ff56a8c28a8"
                     }
                 ]
             },
@@ -148,9 +136,7 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSLocationWhenInUseUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -196,9 +182,7 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSLocationWhenInUseUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
