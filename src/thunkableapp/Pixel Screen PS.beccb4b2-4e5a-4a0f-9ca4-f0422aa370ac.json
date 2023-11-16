@@ -1826,8 +1826,8 @@
                         "LineHeight": 1,
                         "Color": "rgba(255, 255, 255, 1)",
                         "TextAlign": "center",
-                        "Height": 46,
-                        "Width": 92,
+                        "Height": 50,
+                        "Width": 96,
                         "Visible": true,
                         "X": 143,
                         "Y": 38,
@@ -1881,7 +1881,7 @@
                     "children": [],
                     "id": "cd71baef-8a3a-468c-a614-9a8f42ac9d00",
                     "thunkableVersion": 426,
-                    "name": "Label7"
+                    "name": "Coordinate Label PS"
                 },
                 {
                     "type": "Label",
@@ -1949,7 +1949,7 @@
                     "id": "97a1a41b-ae1d-442e-9b45-d578c3b62b73",
                     "thunkableVersion": 426,
                     "bindings": null,
-                    "name": "Label6"
+                    "name": "DesignLabel PS1"
                 },
                 {
                     "type": "Button",
