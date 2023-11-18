@@ -1,4 +1,5 @@
 {
+    "id": "ee9ceb1f-2f9e-4307-baad-4e911220c534",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -575,7 +576,6 @@
             "name": "Sign Up Group"
         }
     ],
-    "id": "ee9ceb1f-2f9e-4307-baad-4e911220c534",
     "thunkableVersion": 425,
     "bindings": null,
     "name": "SignUpScreen SS1"
