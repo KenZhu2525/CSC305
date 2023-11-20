@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Campus Canvas - Art Creation Made Easy</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f5f5f5;
             color: #333;
+            position: relative;
         }
 
         header {
@@ -18,10 +20,35 @@
             padding: 40px 0;
         }
 
-        main {
+        h1 {
+            font-size: 80px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+
+        nav {
             display: flex;
-            flex-direction: column;
-            align-items: center;
+            justify-content: center;
+            background-color: #3F51B5;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #1A1A1A;
+        }
+
+        main {
             padding: 20px;
         }
 
@@ -48,57 +75,84 @@
             background-color: #3F51B5;
             color: white;
         }
+
+        .download-banner {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        
     </style>
 </head>
+
 <body>
     <header>
-        <h1>Welcome to Campus Canvas</h1>
-        <p>Create, Collaborate, and Craft Art Digitally</p>
+        <img src="CampusCanvasTitle.png" alt="Campus Canvas" width="500" height="65">
     </header>
 
+    <nav>
+        <a href="#about">About</a>
+        <a href="#preview">App Preview</a>
+        <a href="#documentation">User Documentation</a>
+        <a href="#video">Product Video</a>
+        <a href="#leaderboards">Community Leaderboards</a>
+        <a href="#marketing">Marketing Content</a>
+    </nav>
+
     <main>
-        <section class="description">
+        <section id="about">
             <h2>About Campus Canvas</h2>
-            <p>Empower your creativity with Campus Canvas! Design, collaborate, and bring digital art to life with our intuitive app.</p>
-            <button onclick="location.href='link-to-your-app';">Try It Now!</button>
+            <p>Campus Canvas is a community-driven mobile app with a unique twist: users must physically visit specific real-life locations to place virtual pixels based on their real-world location. This app draws inspiration from Reddit, particularly r/Place, where a vast canvas allows users to add a single pixel every few minutes.</p>
         </section>
 
-        <section class="app-preview">
+        <section id="preview">
             <h2>App Preview</h2>
             <a href="https://thunkable.site/w/K2yGQbUj4hpjZE0D_ht6d" target="_blank">
-                <button>Go to Thunkable Site</button>
             </a>
-        </section>
-
-        <section class="play-store">
-            <h2>Get the App</h2>
+            <iframe src="https://thunkable.site/w/K2yGQbUj4hpjZE0D_ht6d" title="Campus Canvas" height="1000" width="500"></iframe>
+        
+        <section id="play-store">
+            <h2>In The Google Play Store</h2>
             <!-- Screenshot of the app on Google Play Store -->
         </section>
-
-        <section class="user-documentation">
+    
+        <section id="documentation">
             <h2>User Documentation</h2>
             <p>Explore our user guide for step-by-step instructions and visual aids on using our app.</p>
         </section>
-
-        <section class="product-video">
+    
+        <section id="video">
             <h2>Product Video</h2>
             <!-- Embedded video showing app usage -->
         </section>
-
-        <section class="community-views">
+    
+        <section id="leaderboards">
             <h2>Community Leaderboards</h2>
             <!-- Display community/user-level views pulled from the backend -->
         </section>
-
-        <section class="marketing-content">
-            <h2>Other Marketing Content</h2>
+    
+        <section class="marketing">
+            <h2>Marketing Content</h2>
             <!-- Include additional marketing content or promotional material -->
         </section>
+    </section>
 
     </main>
+
+    <a href="https://example.com" class="download-banner">Download</a>
 
     <footer>
         <p>&copy; 2023 Campus Canvas. All Rights Reserved.</p>
     </footer>
+
+    
 </body>
+
 </html>
