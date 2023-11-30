@@ -87,6 +87,35 @@
             cursor: pointer;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
+        .topUsers {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .gold {
+            background-color: gold;
+            padding: 100px;
+            border: px solid #ffd700;
+            border-radius: 25%;
+            margin-bottom: -20px;
+        }
+
+        .silver {
+            background-color: silver;
+            padding: 80px;
+            border: 2px solid #c0c0c0;
+            border-radius: 25%;
+            margin-bottom: -20px;
+        }
+
+        .bronze {
+            background-color: #cd7f32;
+            padding: 70px;
+            border: 2px solid #8b4513;
+            border-radius: 25%;
+        }
+
+
 
         
     </style>
@@ -94,7 +123,7 @@
 
 <body>
     <header>
-        <img src="https://github.com/KenZhu2525/Campus-Canvas/blob/main/src/campuscanvastitle.png?raw=true" alt="Campus Canvas" width="500" height="65">
+        <img src="CampusCanvasTitle.png" alt="Campus Canvas" width="500" height="65">
     </header>
 
     <nav>
@@ -125,8 +154,77 @@
     
         <section id="documentation">
             <h2>User Documentation</h2>
-            <p>Explore our user guide for step-by-step instructions and visual aids on using our app.</p>
+        
+            <h3>Table of Contents</h3>
+            <ul>
+                <li>Introduction</li>
+                <li>Sign Up Screen</li>
+                <li>Log In Screen</li>
+                <li>Usage Instructions</li>
+                <li>Troubleshooting</li>
+                <li>Contact</li>
+                <li>Version History</li>
+            </ul>
+        
+            <h3>1. Introduction</h3>
+            <p>Welcome to the documentation for our mobile app! This document will guide you through the features and functionalities of the app, with a focus on the Sign Up and Log In screens.</p>
+            <p>Provide a brief overview of the app and its purpose.</p>
+            <h4>Target Audience</h4>
+            <p>The app is tailored for the campus community, including students, faculty, and staff members. Its primary audience comprises:</p>
+            <ul>
+                <li><strong>Students:</strong> Enrolled individuals seeking an interactive and engaging platform to connect, collaborate, and access campus-related information.</li>
+                <li><strong>Faculty:</strong> Instructors and academic staff aiming to facilitate communication, share resources, and organize campus-related activities.</li>
+                <li><strong>Staff Members:</strong> Administrative and support staff interested in streamlining campus services, announcements, and management processes.</li>
+            </ul>
+            <p>This app serves as a centralized hub for campus interaction, fostering communication, collaboration, and the sharing of campus-related information among its diverse users.</p>
+
+            <h4>System Requirements</h4>
+            <p>The app is compatible with devices running Android OS version 7.0 (Nougat) and above.</p>
+            <p>To ensure optimal performance and functionality, it's recommended to have:</p>
+            <ul>
+                <li><strong>Device:</strong> Smartphones or tablets with at least 2GB of RAM for smooth operation.</li>
+                <li><strong>Storage:</strong> Minimum of 100MB of free storage space to install and run the app.</li>
+                <li><strong>Internet Connection:</strong> Access to a stable internet connection for app functionality, updates, and content synchronization.</li>
+                <li><strong>Permissions:</strong> Appropriate permissions for accessing location services (if applicable), camera (if required), and other relevant device features for enhanced functionality.</li>
+            </ul>
+            <p>For the best user experience, ensure that your device meets these minimum system requirements and maintains a stable internet connection for uninterrupted access to app features and updates.</p>
+
+            <h3>2. Sign Up Screen</h3>
+            <p>The Sign Up screen allows users to create a new account in your app. Here's an overview of the key features and elements on this screen:</p>
+            <h4>Key Features</h4>
+            <ul>
+                <li>Registration Form: Users can enter their details, such as username, email address, password, and any additional information required.</li>
+                <li>Profile Picture: Some apps allow users to upload a profile picture during the sign-up process.</li>
+                <li>Terms and Conditions: Include an option for users to review and accept the terms and conditions of your app.</li>
+            </ul>
+            <h4>Example Usage</h4>
+            <ol>
+                <li>Launch the app.</li>
+                <li>Tap on the "Sign Up" button on the home screen.</li>
+                <li>Fill out the registration form with the required information.</li>
+                <li>Accept the terms and conditions.</li>
+                <li>Tap the "Sign Up" button to create your account.</li>
+            </ol>
+            <!-- Screenshots or other visual aids can be added here -->
+        
+            <h3>3. Log In Screen</h3>
+            <p>The Log In screen allows registered users to access their accounts. Here's an overview of the key features and elements on this screen:</p>
+            <h4>Key Features</h4>
+            <ul>
+                <li>Log In: Enter the registered email address and password used during the signup process.</li>
+                <li>Forgot Password: Include an option for users to reset their password if forgotten.</li>
+                <li>Remember Me: Add a "Remember Me" checkbox to allow users to stay logged in across sessions.</li>
+            </ul>
+            <h4>Example Usage</h4>
+            <ol>
+                <li>Launch the app.</li>
+                <li>Tap on the "Log In" button on the home screen.</li>
+                <li>Enter your login credentials.</li>
+                <li>Optionally, select the "Remember Me" option.</li>
+                <li>Tap the "Log In" button to access your account.</li>
+            </ol>
         </section>
+        
     
         <section id="video">
             <h2>Product Video</h2>
@@ -135,8 +233,18 @@
     
         <section id="leaderboards">
             <h2>Community Leaderboards</h2>
-            <!-- Display community/user-level views pulled from the backend -->
-        </section>
+            <div class="topUsers">
+                <div class="silver" id="silverUser">
+                    <p id="silverEmail"></p>
+                </div>
+                <div class="gold" id="goldUser">
+                    <p id="goldEmail"></p>
+                </div>
+                <div class="bronze" id="bronzeUser">
+                    <p id="bronzeEmail"></p>
+                </div>
+            </div>
+        </section>        
     
         <section class="marketing">
             <h2>Marketing Content</h2>
@@ -152,7 +260,90 @@
         <p>&copy; 2023 Campus Canvas. All Rights Reserved.</p>
     </footer>
 
+    <script type="module">
+
+        // Import Firebase modules
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+        import{getDatabase,set,get,update,remove,ref,child} from "https://www.gstatic.com/firebasejs/10.4.0/firebase-database.js";
     
+        // Firebase configuration
+        const firebaseConfig = {
+        apiKey: "AIzaSyCVby9L7W1frxhgKAsDAACXdsxm-l_kOlo",
+        authDomain: "csc305-canvas-map.firebaseapp.com",
+        databaseURL: "https://csc305-canvas-map-default-rtdb.firebaseio.com",
+        projectId: "csc305-canvas-map",
+        storageBucket: "csc305-canvas-map.appspot.com",
+        messagingSenderId: "1030654265485",
+        appId: "1:1030654265485:web:c9af523b1f76b36f7c3ac4",
+        measurementId: "G-5ERW4NS7FZ"
+    };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+        const db = getDatabase();
+        const dbRef = ref(db);
+    
+    // Function to fetch top users and their pixel placement
+    var fetchTopUsers = async function() {
+        var userList = []; 
+        try {
+            var snapshot = await get(child(dbRef, "Users/"));
+            if (snapshot.exists()) {
+                for (var key in snapshot.val()) {
+                    console.log("the email is " + snapshot.val()[key]["email"] + " and they have placed " + snapshot.val()[key]["placed"] + " pixels");
+                    userList.push({
+                        "email": snapshot.val()[key]["email"],
+                        "pixelsPlaced": snapshot.val()[key]["placed"]
+                    });
+                }
+            } else {
+                console.log("No data found");
+            }
+        } catch (error) {
+            console.error("Error fetching users:", error);
+        }
+        return userList;
+    };
+    var listOfUsers = await fetchTopUsers();
+    console.log(listOfUsers.length);
+
+    listOfUsers.sort((a,b) => {
+        return b.pixelsPlaced - a.pixelsPlaced;
+    });
+
+    var updateTopThree = listOfUsers.slice(0,3);
+
+    var topUsersDiv = document.getElementById('leaderboard');
+
+    // Iterate through the top three users and create elements to display them
+    updateTopThree.forEach((user, index) => {
+        var userEntry = document.createElement('p');
+        userEntry.textContent = `${index + 1}. Email: ${user.email}, Pixels Placed: ${user.pixelsPlaced}`;
+    });
+
+    // Retrieve the box elements
+    var goldUserBox = document.getElementById('goldEmail');
+    var silverUserBox = document.getElementById('silverEmail');
+    var bronzeUserBox = document.getElementById('bronzeEmail');
+
+    // Function to create a formatted string with email and pixels placed
+    function getUserInfoString(user) {
+        return `<strong>${user.email}</strong> - Pixels Placed: ${user.pixelsPlaced}`;
+    }
+
+    // Assign the top users' emails and pixels placed to the respective boxes based on their ranking
+    goldUserBox.innerHTML = getUserInfoString(updateTopThree[0]);
+    silverUserBox.innerHTML = getUserInfoString(updateTopThree[1]);
+    bronzeUserBox.innerHTML = getUserInfoString(updateTopThree[2]);
+
+
+    for (var i = 0; i < updateTopThree.length; i ++) {
+        console.log(updateTopThree[i]);
+    }
+
+    </script>
 </body>
 
 </html>
